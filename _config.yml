@@ -17,11 +17,12 @@ author :
   feedburner : nil
 
 # NOTE: If replacing this next line with your own URL, you likely want "https://" not "http://"
-production_url : http://kdkorthauer.github.io/simple_site
+production_url : https://kdkorthauer.github.io/simple_site
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
 markdown: kramdown
+port: 3000 # change server port to 3000
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -52,7 +53,7 @@ JB :
   #     This means always setting the protocol (http|https) or prefixing with "/"
   #
   # NOTE: If replacing this next line with your own URL, you likely want "https://" not "http://"
-  BASE_PATH : http://kdkorthauer.github.io/simple_site
+  BASE_PATH : https://kdkorthauer.github.io/simple_site
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
